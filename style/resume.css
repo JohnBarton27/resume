@@ -1,0 +1,53 @@
+:root {
+    --black:     #002E2C;
+    --blue:      #035E7B;
+    --pale:      #EFF1C5;
+    --artichoke: #A2A77F;
+    --white:     #ffffff;
+    --def-font:    0.8rem;
+}
+
+body {
+    font-family: 'Open Sans', serif;
+    color: var(--black);
+    font-size: var(--def-font);
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1rem;
+    margin: 20px 0 5px 0;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 0px 5px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+p {
+    margin: 0;
+    font-size: var(--def-font);
+}
+
+
+#printPage
+{
+  margin: auto;
+  padding: 0px;
+  width: 670px; /* width: 7in; */
+  height: 900px; /* or height: 9.5in; */
+  clear: both;
+  background-color: white;
+  page-break-after: always;
+  border: 1px solid lightgray;
+}
